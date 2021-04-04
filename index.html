@@ -1,118 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Potential Employee Protfolio!</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- navigation tags - block level element -->
     <header>
-        <h1>
-            <a href="/">Portfolio</a>
-        </h1>
-        <!-- Navigation panel -->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#project-1">Student Portfolio</a>
-                </li>
-                <li>
-                    <a href="#run-buddy">Run Buddy</a>
-                </li>
-                <li>
-                    <a href="#project-3">Project 3</a>
-                </li>
-                <li>
-                    <a href="#project-4">Project 4</a>
-                </li>
-                <li>
-                    <a href="#project-5">Project 5</a>
-                </li>
-            </ul>
-        </nav>  
+      <h1>
+        <a href="/">Portfolio</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <!-- End of Navigation -->
+    <!-- end navigation -->
 
-    <!-- HERO BANNER START -->
+    <!-- hero/jumbotron -->
     <section class="hero">
-        <div id="about-me" class="intro">
-              <h1>About Me</h1>
+      <div class="hero-cta">
+        <h2>Projects</h2>
         <p>
-            Fill out about me
+          seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it
+          messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund
+          Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche
+          tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you
+          probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life.
         </p>
-        </div>
-      
+      </div>
+    <!-- end header -->
+
+    <!-- "what we do" start - <section> -->
+    <section id="about-me" class="intro">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          About Me
+        </h2>
+      </div>
+      <div class="flex-row">
+        <p>
+          butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade  Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft
+        </p>
+      </div>
     </section>
-    <!-- END HERO BANNER -->
+    <!-- end "what we do" -->
 
-    <!-- PROJECT 1 -->
-    <section id="project-1" class="big-section">
-        <div class="student-porfolio">
-            <a href="../Student-Profile/studentportfolio.html">
-                <img src="#" alt="student-porfolio">
-            </a>
-            <!-- fillproject 1 -->
+    <!-- "what you do" start -->
+    <section id="what-you-do" class="steps">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Work
+        </h2> 
+      </div>
+      <div class="step">
+        <h3>Student Portfolio</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <a href="../Student-Profile/studentportfolio.html"></a>
+            <img src="./assets/images/student port.jpg" alt="student-portfolio" />
+          </div>
         </div>
-    </section>
-
-    <!-- Project 2 -->
-    <section id="project-2" class="div-section">
-        <div class="student-porfolio">
-            <a href="../run-buddy/index.html">
-            <img src="#" alt="run-buddy">
-            </a>
-            <!-- fillproject 1 -->
+      </div>
+      <div class="step">
+        <h3></h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src="./asset/assets/images/step-2.svg" alt="" />
+          </div>
+          <div class="step-text">
+            <h4>Consult With One Of Our Trainers</h4>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+          </div>
         </div>
-    </section>
-
-
-       <!--Project 3  -->
-    <section id="project-3" class="div-section">
-        <div class="student-porfolio">
-            <a href="#">
-                <img src="" alt="project-3">
-            </a>
-            <!-- fillproject 1 -->
+      </div>
+      <div class="step">
+        <h3>Step 3.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src=".asset/assets/images/step-3.svg" alt="" />
+          </div>
+          <div class="step-text">
+            <h4>Get Running</h4>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+          </div>
         </div>
-    </section>
-
-
-        <!-- Project 4 -->
-    <section id="project-4" class="div-section">
-        <div class="student-porfolio">
-            <a href="#">
-                <img src="#" alt="project-4">
-            </a>
-            <!-- fillproject 1 -->
+      </div>
+      <div class="step">
+        <h3>Step 4.</h3>
+        <div class="step-info">
+          <div class="step-img">
+            <img src=".asset/assets/images/step-4.svg" alt="" />
+          </div>
+          <div class="step-text">
+            <h4>See Results</h4>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+          </div>
         </div>
+      </div>
     </section>
+    <!-- "what you do" end -->
 
+    <!-- "meet the trainers" start -->
+    <section id="your-trainers">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Meet The Trainers
+        </h2>
+      </div>
 
-            <!-- Project 5 -->
-    <section id="project-5" class="div-section">
-        <div class="student-porfolio">
-            <a href="#">
-                <img src="#" alt="project-5">
-            </a>
-            <!-- fillproject 1 -->
+      <div class="trainers">
+        <article class="trainer">
+          <img src=".asset/assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Arron Stephens</h3>
+            <h4 class="trainer-role">Speed / Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+
+        <article class="trainer">
+          <img src=".asset/assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a work out" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna Gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+            </div>
+          </article>
+
+        <article class="trainer">
+          <img src=".asset/assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
+          <div class="trainer-bio">
+            <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+            <h4 class="trainer-role">Strength</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate commodi saepe culpa sed itaque velit maiores optio dolorem excepturi aperiam dolores, voluptatibus suscipit amet quis repellat!</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- "meet the trainers" end -->
+
+    <!-- "reach out" start -->
+    <section id="reach-out" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title secondary-border">
+          Reach Out
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>Run Buddy</h3>
+          <p>
+            Any questions or concerns before signing up? 
+            <br/>
+            Let us know and we'll be happy to talk to you!
+          </p>
+
+          <address>
+            55 Main Street <br/>
+            Some Town, Ca <br/>
+            12345<br/>
+            P: 555.RUN.BUDZ (555.786.2839)<br/>
+            E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+          </address>
+          
         </div>
+
+        <div class="contact-form">
+          <h3>Contact Us</h3>
+          <form>
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Your Name" />
+        
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Message"></textarea>
+        
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-74.0652613!3d40.2407219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
+          frameborder="0" style="border:0" allowfullscreen>
+        </iframe>
+      </div>
     </section>
+    <!-- "reach out" end -->
 
-
-<!-- start footer -->
+    <!-- footer -->
     <footer>
-        <!-- add footer/contac information -->
-
+      <h2>❤️ Made with love by Run Buddy.</h2>
+      <div>
+        <a href="./privacy-policy.html">Read Our Privacy Policy</a><br/>
+        &copy; 2019 Run Buddy, Inc.
+      </div>
     </footer>
-        <h1>Contact Me</h1>
-            <address>
-                1234 Main Street <br/>
-                Some Town, TX <br/>
-                77000 <br/>
-                Phone#: 832.477.0545 <br/>
-                <a href="Joshuatvn@gmail.com">Joshuatvn@gmail.com</a>
-            </address>
-    <!-- END FOOTER -->
-</body>
+    <!-- footer end -->
+  </body>
 </html>
